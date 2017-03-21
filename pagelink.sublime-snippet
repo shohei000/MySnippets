@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[\$(function(){
+  \$('a[href^="#"]').click(function() {
+    var speed = 400;
+    var href= \$(this).attr("href");
+    var target = \$(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top -82;
+    \$('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+  });
+});]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pagelink</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

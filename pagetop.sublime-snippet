@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[\$(document).ready(function() {
+      var pagetop = \$('.pagetop');
+      \$(window).scroll(function () {
+        if (\$(this).scrollTop() > 2000) {
+          pagetop.fadeIn();
+        } else {
+          pagetop.fadeOut();
+        }
+      });
+      pagetop.click(function () {
+        \$('body, html').animate({ scrollTop: 0 }, 500);
+        return false;
+      });
+    });]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pagetop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

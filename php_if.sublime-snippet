@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+
+<?php if ($1): ?>
+  $2
+<?php else: ?>
+  
+<?php endif ?>
+
+		]]></content>
+	<tabTrigger>ifelse</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

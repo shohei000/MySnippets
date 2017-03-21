@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[<meta property="og:title" content="ページのタイトル" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="ページのURL" />
+<meta property="og:image" content="画像のURL" />
+<meta property="og:site_name"  content="サイト名" />
+<meta property="og:description" content="ページのディスクリプション" />
+<meta property="fb:app_id" content="App-ID" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@[Twitter ID]" />]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ogp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
